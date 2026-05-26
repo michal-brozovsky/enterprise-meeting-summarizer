@@ -39,4 +39,11 @@ source venv/bin/activate
 venv\Scripts\activate
 
 # 5. Install all required project dependencies
-pip install -r requirements.txt
+```
+## Running the Application
+
+To run the application, ensure your virtual environment is active, then execute the following command in your terminal:
+
+```bash
+# Launch the application
+streamlit run main.py
