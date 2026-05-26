@@ -17,8 +17,8 @@ An AI-powered web application designed to streamline project management by conve
 
 
 ## Screenshots
-Clean UI Waiting for Input(screenshots/01_dashboard_input.png)
-Structured Dashboard Output(screenshots/02_structured_output.png)
+![Clean UI Waiting for Input](screenshots/01_dashboard_input.png)
+![Structured Dashboard Output](screenshots/02_structured_output.png)
 
 ## Installation & Setup
 
