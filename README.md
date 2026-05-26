@@ -39,6 +39,7 @@ source venv/bin/activate
 venv\Scripts\activate
 
 # 5. Install all required project dependencies
+pip install -r requirements.txt
 ```
 ## Running the Application
 
