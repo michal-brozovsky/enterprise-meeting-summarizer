@@ -26,3 +26,6 @@ An AI-powered web application designed to streamline project management by conve
 ```bash
    git clone [https://github.com/yourusername/meeting-summarizer.git](https://github.com/yourusername/meeting-summarizer.git)
    cd meeting-summarizer
+   python -m venv venv
+   source venv/bin/activate  # On Windows use: venv\Scripts\activate
+   pip install -r requirements.txt
