@@ -22,10 +22,21 @@ An AI-powered web application designed to streamline project management by conve
 
 ## Installation & Setup
 
-1. **Clone the repository**
 ```bash
-   git clone [https://github.com/yourusername/meeting-summarizer.git](https://github.com/yourusername/meeting-summarizer.git)
-   cd meeting-summarizer
-   python -m venv venv
-   source venv/bin/activate  # On Windows use: venv\Scripts\activate
-   pip install -r requirements.txt
+# 1. Clone the repository to your local machine
+git clone [https://github.com/michal-brozovsky/enterprise-meeting-summarizer.git](https://github.com/michal-brozovsky/enterprise-meeting-summarizer.git)
+
+# 2. Navigate into the project directory
+cd enterprise-meeting-summarizer
+
+# 3. Create a virtual environment to isolate dependencies
+python -m venv venv
+
+# 4. Activate the virtual environment
+# On macOS/Linux:
+source venv/bin/activate
+# On Windows:
+venv\Scripts\activate
+
+# 5. Install all required project dependencies
+pip install -r requirements.txt
