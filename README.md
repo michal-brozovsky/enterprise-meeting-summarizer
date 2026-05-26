@@ -1,4 +1,4 @@
-# Enterprise Meeting Summarizer 📝
+# Enterprise Meeting Summarizer
 
 An AI-powered web application designed to streamline project management by converting unstructured, chaotic meeting notes into clean, actionable dashboards. Built with Python, Streamlit, and the OpenAI API.
 
