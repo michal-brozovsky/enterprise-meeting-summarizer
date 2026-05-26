@@ -15,6 +15,8 @@ An AI-powered web application designed to streamline project management by conve
 * **Backend logic**: Python
 * **LLM**: OpenAI API (`gpt-4o-mini` model)
 
+
+## 📸 Screenshots
 ![Clean UI Waiting for Input](screenshots/01_dashboard_input.png)
 ![Structured Dashboard Output](screenshots/02_structured_output.png)
 
