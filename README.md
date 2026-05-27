@@ -1,23 +1,114 @@
-# Enterprise Meeting Summarizer 📝
+# Enterprise Meeting Summarizer
 
-An AI-powered web application designed to streamline project management by converting unstructured, chaotic meeting notes into clean, actionable dashboards. Built with Python, Streamlit, and the OpenAI API.
+AI-powered web application for summarizing meeting notes, extracting action items, and organizing key information into a structured dashboard.
+
+Built with Python, Streamlit, and the OpenAI API.
+
+---
 
 ## Features
 
-* **Automated Structuring**: Uses OpenAI's JSON mode to reliably extract specific data points.
-* **Interactive Dashboard**: Splits outputs into easy-to-read tabs (Executive Summary, Action Items, Risks).
-* **Smart Tables**: Automatically formats tasks, assignees, and deadlines into an organized matrix.
-* **One-Click Export**: Download the generated report as a Markdown (`.md`) file for easy sharing in Jira, Confluence, or GitHub.
+- AI-generated meeting summaries
+- Automatic action item extraction
+- Interactive Streamlit dashboard
+- Structured output for improved workflow organization
+- Markdown export support
+
+---
 
 ## Tech Stack
 
-* **Frontend**: Streamlit
-* **Backend logic**: Python
-* **LLM**: OpenAI API (`gpt-4o-mini` model)
+- Python
+- Streamlit
+- OpenAI API
+- python-dotenv
+
+---
+
+## Screenshots
+
+### Main Dashboard
+<p align="center">
+  <img src="Screenshots/dashboard.png" alt="Main Dashboard" width="800">
+</p>
+
+### Analysis & Tabs
+<p align="center">
+  <img src="Screenshots/analysis + tabs.png" alt="Analysis and Tabs" width="800">
+</p>
+
+### Executive Summary
+<p align="center">
+  <img src="Screenshots/exec summary.png" alt="Executive Summary" width="800">
+</p>
+
+### Action Items
+<p align="center">
+  <img src="Screenshots/action items.png" alt="Action Items" width="800">
+</p>
+
+### Project Risks
+<p align="center">
+  <img src="Screenshots/Risks.png" alt="Project Risks" width="800">
+</p>
+
+---
+
+### Main Interface
+![Main Interface](01_dashboard_input.png)
+
+### Generated Summary Dashboard
+![Dashboard](02_structured_output.png)
+
+---
 
 ## Installation & Setup
 
-1. **Clone the repository**
 ```bash
-   git clone [https://github.com/yourusername/meeting-summarizer.git](https://github.com/yourusername/meeting-summarizer.git)
-   cd meeting-summarizer
+# Clone repository
+git clone https://github.com/michal-brozovsky/enterprise-meeting-summarizer.git
+
+# Navigate into project
+cd enterprise-meeting-summarizer
+
+# Create virtual environment
+python -m venv venv
+
+# Activate virtual environment
+
+# Windows
+venv\Scripts\activate
+
+# macOS/Linux
+source venv/bin/activate
+
+# Install dependencies
+pip install -r requirements.txt
+```
+
+---
+
+## Environment Variables
+
+Create a `.env` file in the project root:
+
+```env
+OPENAI_API_KEY=your_api_key_here
+```
+
+---
+
+## Run Application
+
+```bash
+streamlit run app.py
+```
+
+---
+
+## Future Improvements
+
+- PDF export support
+- Multi-language summaries
+- Meeting transcript upload
+- Improved dashboard analytics
