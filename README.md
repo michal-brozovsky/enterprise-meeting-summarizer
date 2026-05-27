@@ -47,4 +47,4 @@ To run the application, ensure your virtual environment is active, then execute 
 
 ```bash
 # Launch the application
-streamlit run main.py
+streamlit run app.py
