@@ -29,27 +29,27 @@ Built with Python, Streamlit, and the OpenAI API.
 
 ### Main Dashboard
 <p align="center">
-  <img src="Screenshots/dashboard.png" alt="Main Dashboard" width="800">
+  <img src="screenshots/dashboard.png" alt="Main Dashboard" width="800">
 </p>
 
 ### Analysis & Tabs
 <p align="center">
-  <img src="Screenshots/analysis_tabs.png" alt="Analysis and Tabs" width="800">
+  <img src="screenshots/analysis_tabs.png" alt="Analysis and Tabs" width="800">
 </p>
 
 ### Executive Summary
 <p align="center">
-  <img src="Screenshots/exec_summary.png" alt="Executive Summary" width="800">
+  <img src="screenshots/exec_summary.png" alt="Executive Summary" width="800">
 </p>
 
 ### Action Items
 <p align="center">
-  <img src="Screenshots/action_items.png" alt="Action Items" width="800">
+  <img src="screenshots/action_items.png" alt="Action Items" width="800">
 </p>
 
 ### Project Risks
 <p align="center">
-  <img src="Screenshots/risks.png" alt="Project Risks" width="800">
+  <img src="screenshots/risks.png" alt="Project Risks" width="800">
 </p>
 
 ---
