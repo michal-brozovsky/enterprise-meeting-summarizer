@@ -27,6 +27,33 @@ Built with Python, Streamlit, and the OpenAI API.
 
 ## Screenshots
 
+### Main Dashboard
+<p align="center">
+  <img src="Screenshots/dashboard.png" alt="Main Dashboard" width="800">
+</p>
+
+### Analysis & Tabs
+<p align="center">
+  <img src="Screenshots/analysis + tabs.png" alt="Analysis and Tabs" width="800">
+</p>
+
+### Executive Summary
+<p align="center">
+  <img src="Screenshots/exec summary.png" alt="Executive Summary" width="800">
+</p>
+
+### Action Items
+<p align="center">
+  <img src="Screenshots/action items.png" alt="Action Items" width="800">
+</p>
+
+### Project Risks
+<p align="center">
+  <img src="Screenshots/Risks.png" alt="Project Risks" width="800">
+</p>
+
+---
+
 ### Main Interface
 ![Main Interface](01_dashboard_input.png)
 
