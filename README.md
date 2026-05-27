@@ -54,14 +54,6 @@ Built with Python, Streamlit, and the OpenAI API.
 
 ---
 
-### Main Interface
-![Main Interface](01_dashboard_input.png)
-
-### Generated Summary Dashboard
-![Dashboard](02_structured_output.png)
-
----
-
 ## Installation & Setup
 
 ```bash
